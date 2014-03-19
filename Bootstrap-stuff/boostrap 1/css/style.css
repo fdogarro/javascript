@@ -1,0 +1,101 @@
+#navbar_custom{
+	margin-bottom:-10px;
+}
+
+.navbar-inner{
+	background:none;
+	border:none;
+	box-shadow: none;
+	background-color:black;
+	height:80px;
+}
+
+.navbar .nav > li > a{
+	color:#ffffff;
+	text-shadow:none;
+	margin-bottom:5px;
+}
+
+.navbar .nav > li > a:hover{
+	color: white;
+	background:none;
+}
+
+.navbar .nav .active > a{
+	color: white;
+	background:none;
+
+}
+
+.navbar .nav .active > a:hover{
+	background: none;
+	color:white;	
+}
+
+.top_image{
+	background-image: url("//localhost/Users/feliciaogarro/Desktop/boostrap%201/img/img6.png");
+	background-repeat: no-repeat;
+	height:450px;
+	background-size: 100%;
+	margin-top: 0px;
+	/*width: 2000px;*/
+}
+
+.offset8{
+	margin-top: 30px;
+
+}
+
+#row_caption{
+	color:white;
+}
+
+#row-fluid-email{
+	background-color: #DCDCDC;
+	margin-bottom: 30px;
+	height:80px;
+}
+
+h1.header_class_info{
+	margin-left: 100px;
+	margin-bottom: 40px;
+}
+
+.class_info{
+	margin-bottom: 70px;
+	margin-top:200px;
+}
+
+.middle_image{
+	background-image: url("//localhost/Users/feliciaogarro/Desktop/boostrap%201/img/img4.png");
+	background-repeat: no-repeat;
+	height:450px;
+	width:2000px;
+	margin-bottom: 100px;
+	margin-top: -18px;
+
+}
+
+.span12{
+	background-color: #303030;
+	margin-left: -55px;
+	height:70px;
+	margin-top:-10px;
+	width:2000px;
+}
+
+#row-fluid-email-bottom{
+	background-color: #DCDCDC;
+	height:80px;
+	width:1350px;
+	margin-left: -55px;
+	margin-top:30px;
+
+}
+
+#row_three_column{
+	margin-top:20px;
+	margin-bottom: 100px;
+}
+
+

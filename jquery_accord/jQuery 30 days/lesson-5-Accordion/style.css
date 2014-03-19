@@ -1,0 +1,26 @@
+dl{
+
+}
+
+dt{
+	cursor:pointer;
+	font-weight:bold;
+	font-size: 1.5em;
+	line-height:2em;
+	background:#DCDCDC;
+	border-bottom:1px solid #A9A9A9;
+	border-top: 1px solid white;
+
+}
+
+dd{
+	margin:0;
+	padding:1em;
+
+}
+
+body{
+	width:500px;
+	margin:auto;
+	text-align: center;
+}
