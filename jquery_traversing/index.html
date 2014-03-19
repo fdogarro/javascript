@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	 div{
+	 	border:black dotted 2px;
+	 	min-height: 200px;
+	 	padding: 30px;
+	 }
+
+	 .highlight{
+	 	background-color: blue;
+	 }
+	</style>
+</head>
+<body>
+<div class="grandparent">
+	<div class="parent">
+		<div class="baby">
+		<div class="sister">
+	</div>
+</div>
+
+		</div>
+		</div>
+<button id="1">Highlight Grand</button>
+<button id="2">Highlight Parents</button>
+<button id="3">Highlight Children</button>
+<button id="getdata">Highlight Children</button>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+// highlight children divs
+$("#3").on("click", function(){
+	$(".parent").children().toggleClass.(".highlight");
+	if($(".baby").hasClass("highlight")) {
+		$(this).text("Reset Children");
+	} else{
+		$(this).text("Hightlight Children");
+	}
+});
+
+// $("#getData").on("click",{
+// 	datum: "the biggest data"
+// })
+</script>
+</body>
+</html>
